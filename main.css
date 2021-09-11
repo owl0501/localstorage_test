@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.wrap{
+    width: 400px;
+    margin: auto;
+    background-color: #fff;
+    border: #ddd solid 10px;
+    padding: 20px;
+}
+.add-items{
+    margin: auto;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.button_style{
+    margin: 10px 0;
+}
+.input_style{
+    padding: 0 10px;
+}
+
+h2{
+    text-align: center;
+    padding: 0 0 20px 0 ;
+}
+
+ul{
+    margin: 20px 0;
+}
+
+.item{
+    display: flex;
+    justify-content: space-between;
+    border: none;
+    border-bottom: #aaa solid 1px;
+    padding: 5px;
+    cursor: pointer;
+}
+.remove_btn{
+    width: 20px;
+    height: 20px;
+    font-size: 13px;
+    padding: 0 1px;
+    cursor: pointer;
+}
+.check_btn{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+label{
+    width: 100%;
+    padding: 0 10px;
+    cursor: pointer;
+}
+.title{
+    position: relative;
+}
+.clear_btn{
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+    padding: 0 1px;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
